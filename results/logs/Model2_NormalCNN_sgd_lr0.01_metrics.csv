@@ -1,0 +1,2 @@
+run,model,optimizer,lr,test_loss,test_acc,test_precision_macro,test_recall_macro,val_best_acc
+Model2_NormalCNN_sgd_lr0.01,Model2_NormalCNN,sgd,0.01,1.4098014684716278,0.48607038123167157,0.24227642276422764,0.21311475409836067,0.4871606749816581

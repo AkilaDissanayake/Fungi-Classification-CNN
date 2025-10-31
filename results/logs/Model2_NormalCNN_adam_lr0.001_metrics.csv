@@ -1,0 +1,2 @@
+run,model,optimizer,lr,test_loss,test_acc,test_precision_macro,test_recall_macro,val_best_acc
+Model2_NormalCNN_adam_lr0.001,Model2_NormalCNN,adam,0.001,1.2344864767667485,0.6612903225806451,0.5188903456674017,0.5571856432165251,0.6661775495231108

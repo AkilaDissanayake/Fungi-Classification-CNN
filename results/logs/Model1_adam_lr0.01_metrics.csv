@@ -1,0 +1,2 @@
+run,model,optimizer,lr,test_loss,test_acc,test_precision_macro,test_recall_macro,val_best_acc
+Model1_adam_lr0.01,Model1,adam,0.01,1.2378654619815412,0.6642228739002932,0.6206304536518698,0.5588992463333248,0.6632428466617755

@@ -1,0 +1,2 @@
+run,model,optimizer,lr,test_loss,test_acc,test_precision_macro,test_recall_macro,val_best_acc
+Model1_sgd_lr0.1,Model1,sgd,0.1,1.180616761232751,0.7265395894428153,0.7287499965999105,0.6742790936463965,0.7424798239178283

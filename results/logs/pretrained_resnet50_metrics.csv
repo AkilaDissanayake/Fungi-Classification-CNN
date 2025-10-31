@@ -1,0 +1,2 @@
+pretrained_model,test_loss,test_acc,test_precision_macro,test_recall_macro
+resnet50,0.4531745182628855,0.8159824046920822,0.8338993653031304,0.8063737600882532
