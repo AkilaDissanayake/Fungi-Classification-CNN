@@ -35,18 +35,24 @@ The dataset (defungi.zip) consists of images categorized into the five target cl
 ## 💻 Methodology and Experiments
 
 ### Models Tested
-1. *Model 1: Custom CNN (NormalCNN)*  
+1. *Model 1: Custom CNN *  
    - A custom-defined convolutional neural network.
 
-2. *Model 2: DenseNet121 (Pretrained CNN)*  
+2. *Model 2: Normal CNN*  
+   - Uses a general CNN architecture.
+
+1. *Model 3: RestNet50((Pretrained CNN)*  
+   - Uses pretrained DenseNet121 weights for transfer learning.
+
+2. *Model 4: DenseNet121 (Pretrained CNN)*  
    - Uses pretrained DenseNet121 weights for transfer learning.
 
 ### Training Parameters
 - *Epochs:*  
-  - Model 1: 20  
-  - Model 2: 3 (fine-tuning)
+  - Model 1,2: 20  
+  - Model 3,4: 3 (fine-tuning)
 - *Batch Size:* 64
-- *Optimizer:* SGD with Momentum = 0.9
+- *Optimizer:*SGD,SGD with Momentum = 0.9,Adam
 - *Learning Rates Tested:* 0.1, 0.01, 0.001
 
 ### Key Observations
